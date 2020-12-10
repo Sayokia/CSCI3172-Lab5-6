@@ -65,7 +65,7 @@ After finish this you can run the app using Pycharm run tool by setting up confi
 
 
 <p><img width="32%" src = "screenshots/home.png"  />
-    <img width="32%" src = "screenshots/result_inst.png"  />
+    <img width="32%" src = "screenshots/result-inst.png"  />
     <img width="32%" src = "screenshots/search course code.png"  />
 </p>
 
@@ -74,7 +74,7 @@ After finish this you can run the app using Pycharm run tool by setting up confi
     <img width="32%" src = "screenshots/two.png"  />
 </p>
 
-<p><img width="32%" src = "screenshots/phone_hori.png"  />
-    <img width="32%" src = "screenshots/phone_ver.png"  />
+<p><img width="32%" src = "screenshots/phone-hori.png"  />
+    <img width="32%" src = "screenshots/phone-ver.png"  />
     <img width="32%" src = "screenshots/tablet.png"  />
 </p>
