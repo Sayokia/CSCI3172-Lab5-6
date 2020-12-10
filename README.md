@@ -64,17 +64,17 @@ After finish this you can run the app using Pycharm run tool by setting up confi
 
 
 
-<p><img width="32%" src = "screenshots/home.png"  />
-    <img width="32%" src = "screenshots/result-inst.png"  />
-    <img width="32%" src = "screenshots/search course code.png"  />
+<p><img  src = "screenshots/home.png"  />
+    <img  src = "screenshots/result-inst.png"  />
+    <img src = "screenshots/search course code.png"  />
 </p>
 
-<p><img width="32%" src = "screenshots/approve.png"  />
-    <img width="32%" src = "screenshots/3172 single.png"  />
-    <img width="32%" src = "screenshots/two.png"  />
+<p><img  src = "screenshots/approve.png"  />
+    <img  src = "screenshots/3172 single.png"  />
+    <img  src = "screenshots/two.png"  />
 </p>
 
-<p><img width="32%" src = "screenshots/phone-hori.png"  />
-    <img width="32%" src = "screenshots/phone-ver.png"  />
-    <img width="32%" src = "screenshots/tablet.png"  />
+<p><img  src = "screenshots/phone-hori.png"  />
+    <img  src = "screenshots/phone-ver.png"  />
+    <img  src = "screenshots/tablet.png"  />
 </p>
