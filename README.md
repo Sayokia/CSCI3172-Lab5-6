@@ -63,18 +63,38 @@ After finish this you can run the app using Pycharm run tool by setting up confi
 ##### Please note that the screenshot was taken one version ahead of the final submission. The final version will have a line with your search keyword above the result table
 
 
+##### Home
 
-<p><img  src = "screenshots/home.png"  />
-    <img  src = "screenshots/result-inst.png"  />
-    <img src = "screenshots/search course code.png"  />
-</p>
+<img  src = "screenshots/home.png"  />
 
-<p><img  src = "screenshots/approve.png"  />
-    <img  src = "screenshots/3172 single.png"  />
-    <img  src = "screenshots/two.png"  />
-</p>
+#### Institution Single
 
-<p><img  src = "screenshots/phone-hori.png"  />
-    <img  src = "screenshots/phone-ver.png"  />
-    <img  src = "screenshots/tablet.png"  />
-</p>
+<img  src = "screenshots/result-inst.png"  />
+
+#### Course Code Single
+    
+<img  src = "screenshots/search course code.png"  />
+
+#### Approve Date Single
+
+<img  src = "screenshots/approve.png"  />
+
+#### 3172 Single
+
+<img  src = "screenshots/3172 single.png"  />
+
+#### 3172 two params
+
+<img  src = "screenshots/two.png"  />
+
+
+#### phone horizontal
+
+<img  src = "screenshots/phone-hori.png"  />
+
+#### phone vertical
+
+<img  src = "screenshots/phone-ver.png"  />
+
+#### tablet
+<img  src = "screenshots/tablet.png"  />
