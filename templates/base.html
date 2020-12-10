@@ -1,0 +1,58 @@
+{% extends "bootstrap/base.html" %}
+{% block head %}
+{{super()}}
+    <meta charset="UTF-8">
+    <title>Dalhousie University Transfer Credit Equivalencies Search</title>
+    <meta name="author" content="Yanlin Zhu">
+    <meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit = no">
+    <link rel="icon"
+      type="image/png"
+      href="https://cdn.dal.ca/etc/designs/dalhousie/clientlibs/global/default/images/favicon/favicon-196x196.png.lt_0edbdb9324a882d56c94bc96784e35fd.res/favicon-196x196.png"/>
+
+
+{% endblock %}
+
+
+{% block body %}
+    <main>
+        <div class="container" id="welcome">
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="https://cdn.dal.ca/content/dam/dalhousie/images/dept/communicationsandmarketing/01%20DAL%20FullMark-Blk.jpg.lt_412f83be03abff99eefef11c3f1ec3a4.res/01%20DAL%20FullMark-Blk.jpg" alt="Dalhousie Logo" width="30%" >
+                <h3>Dalhousie University Transfer Credit Equivalencies Search</h3>
+                <p class="text-left" style="font-size: 18px">
+                    Hello, welcome to Dalhousie University Transfer Credit Equivalencies Search. The is a third-party tool developed by Yanlin Zhu, a CSCI 3172 Student, to help Dalhousie Students to find out what courses can be transferred back to meet your pre-requests.
+                </p >
+                <hr>
+                <h4 class="text-left " >Use Instruction</h4>
+                <p class="text-left" style="font-size: 18px">When doing a search, please enter at least one of the following filed, otherwise you will be lead be to search page with no result. You will get more specific results with more fields entered. </p>
+                <p class="text-left" style="font-size: 18px">P.S. In most of cases, you can find what you want by specific two or three parameters. Also, Please note that search a vague word that could lead to large results that may slow down the searching speed. Please wait patiently. If the web is not responding, please refresh the page. </p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container text-center" id="search_bar" >
+            {% block bar %}
+            {% endblock %}
+        </div>
+    <br>
+        <div class="container text-center" id="result">
+            {% block result %}
+            {% endblock %}
+        </div>
+    </main>
+    <div class="container" id="elem_foot">
+        <footer class="navbar" id="footer">
+            <hr>
+            {% block botm_cont %}
+            {% endblock %}
+            <p>&copy; 2020 Yanlin Zhu</p >
+        </footer>
+    </div>
+{% endblock %}
+
+{% block styles -%}
+    {{super()}}
+    <link rel="stylesheet" type="text/css"
+          href="{{url_for('static', filename='myCSS.css')}}">
+{% endblock %}
