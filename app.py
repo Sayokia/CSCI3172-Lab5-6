@@ -45,7 +45,7 @@ def search():
         keyword = "Your search result for " + inst + " "+ " "+ inst_course + " " + dal_course + " " + credit + " " + approve
         # Combine query with user input
         qry = ["%s LIKE '%%%s%%'" % (x, y) for x, y in
-                   (('inst_name', inst), ('inst_course', inst_course), ('dal_course', dal_course), ('inst_credit', credit), ('dal_credit', credit), ('last_assess', approve))
+                   (('inst_name', inst), ('inst_course', inst_course), ('dal_course', dal_course), (' dal_credit', credit), ('last_assess', approve))
                    if y is not None and y != '']
         # empty input prevention
         if not qry:
