@@ -5,17 +5,17 @@
 
 ### About the project 
  The project consists of two separate parts：Web crawler and Search Web.
- 
+
  The first part can be found in main.py which is the python script that crawls the Dalhousie Credit Transfer Equivalent Site to store all Course information into a .csv file called courseData.csv. The file is set a+ so you can just run to test it. The result is also printed in the console.
- 
+
  (P.S. I do not recommend you to run the script to retrieve data as it may take 3/4 hours to get all data)  
- 
+
  After  finish the web crawler, I create a Flask web app to index the result. There are few things need to be done before you successfully run the app.
- 
+
 #### Load Data into your own database
-   
+
    You can choose to import the .sql file to your database or use the following sql to create the table then import the csv file
-   
+
    ```
    CREATE DATABASE IF NOT EXISTS `3172lab5` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `3172lab5`;
@@ -35,7 +35,7 @@ CREATE TABLE `Course` (
   `last_assess` varchar(64) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
    ```
-   After create the db and table, you can import csv using ";" as deliminator and Column name as "inst_code, inst_name,subject,inst_course,inst_credit,dal_course,dal_credit,last_assess" 
+   After create the db and table, you can import csv using ";" as delimitator and Column name as "inst_code, inst_name,subject,inst_course,inst_credit,dal_course,dal_credit,last_assess" 
 
 
 #### Install Flask Dependencies and Config db
@@ -46,17 +46,18 @@ Then open terminal and use pip3 to install packages
 ``` pip3 install -U Flask ```
 ###### Install Flask-Bootstrap
 ``` pip3 install flask-bootstrap``` 
+
 ###### Install Flask-MySQLdb
 ```pip3 install flask-mysqldb```
 ###### Install Flask-Pagination
 ``` pip3 install - U flask-paginate```
 
-After finish this you can run the app using Pycharm run tool by setting up configration or run
- 
+After finish this you can run the app using Pycharm run tool by setting up configuration or run
+
  ``` export FLASK_APP= app.py```
- 
+
  ```Pyhton3 -m flask run```
- 
+
 ***
 ### Screenshots
 
@@ -72,7 +73,7 @@ After finish this you can run the app using Pycharm run tool by setting up confi
 <img  src = "screenshots/result-inst.png"  />
 
 #### Course Code Single
-    
+
 <img  src = "screenshots/search course code.png"  />
 
 #### Approve Date Single
@@ -97,4 +98,4 @@ After finish this you can run the app using Pycharm run tool by setting up confi
 <img  src = "screenshots/phone-ver.png"  />
 
 #### tablet
-<img  src = "screenshots/tablet.png"  />
+<img  src = "screenshots/tablet.png" />

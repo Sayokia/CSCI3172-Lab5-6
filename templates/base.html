@@ -1,4 +1,5 @@
 {% extends "bootstrap/base.html" %}
+{# replace bootstrap default head#}
 {% block head %}
 {{super()}}
     <meta charset="UTF-8">
@@ -14,6 +15,7 @@
 
 
 {% block body %}
+{#    separate welcome information with search bar and result table#}
     <main>
         <div class="container" id="welcome">
             <div class="py-5 text-center">
@@ -31,11 +33,13 @@
         <br>
         <hr>
         <br>
+{#    save space for search bar#}
         <div class="container text-center" id="search_bar" >
             {% block bar %}
             {% endblock %}
         </div>
     <br>
+{#    save space for result table#}
         <div class="container text-center" id="result">
             {% block result %}
             {% endblock %}
